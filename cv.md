@@ -34,3 +34,21 @@ let result = multiply(1, 2);
 alert( result );
 ```
 
+---
+
+## Education and courses
+- **Vitebsk State Technological University**
+   - Faculty of Mechanics and Technology 
+   - Faculty of Advanced Training, Information systems software
+- **Udemy**
+  - HTML
+  - CSS
+- **Sololearn App**
+  - HTML
+  - CSS
+  - JS
+
+---
+
+## English
+Level A2. I continue to improve my English lesson by learning every day.
