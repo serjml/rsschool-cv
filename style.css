@@ -108,3 +108,35 @@
  .english-item {
    padding: 25px 40px;  
  }
+
+ /*------------------- RIGHT SIDE --------------------*/
+
+.right-side {
+   flex-grow: 1;  
+ }
+ 
+ .page-title{
+   text-align: center;
+ }
+ 
+ .page-title p {
+   padding-left: 150px;
+   font-style: italic;
+   font-size: 22px;  
+ }
+ 
+ .main-title {
+   margin: 0;
+   padding-top: 50px;
+   font-size: 60px;
+   line-height: 60px;
+ }
+ 
+ .about-me-item {
+   padding: 25px 40px;
+ }
+ 
+ .education-list {
+   padding: 25px 57px;
+ }
+ 
