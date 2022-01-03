@@ -47,3 +47,64 @@
  .nav-item a:hover {
    color: #54bfe2;  
  }
+
+ /*--------------------- MAIN ----------------------*/
+
+.main {
+   display: flex;
+   background-color: #fafafa;  
+ }
+ 
+ .figure-mobile {      /* photo for mobile */
+   display: none;
+ }
+ 
+ /*------------------- LEFT SIDE -------------------*/
+ 
+ .left-side {
+   background-color: #f0f0f0;
+ }
+ 
+ .figure {
+   margin: 0;
+ }
+ 
+ .section-title {
+   margin: 0;
+   padding: 5px 30px;
+   background: linear-gradient(to right, #54bfe2, #d6d6d6);  
+ }
+ 
+ .contact-list {
+   padding: 20px 30px;
+   list-style-type: none;  
+ }  
+   
+ .contact-item {
+   padding: 5px;
+   transition: 0.3s;  
+ }
+ 
+ .contact-item img {
+   margin-bottom: -3px;
+   padding-right: 5px;
+ }
+ 
+ .contact-item a {
+   text-decoration: none;
+   color: #000;
+   transition: 0.2s; 
+ }
+ 
+ .contact-item a:hover {
+   text-decoration: underline;
+   color: #54bfe2;
+ }
+ 
+ .skills-list {
+   padding: 25px 57px;
+ }
+   
+ .english-item {
+   padding: 25px 40px;  
+ }
