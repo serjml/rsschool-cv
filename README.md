@@ -1,1 +1,1 @@
-# rsschool-cv
+https://serjml.github.io/rsschool-cv/
