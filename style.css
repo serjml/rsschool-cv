@@ -1,142 +1,174 @@
 @font-face {
-   font-family: 'Roboto';
-    src: url("assets/fonts/Roboto.ttf");
-  }
+  font-family: 'Roboto';
+  src: url("assets/fonts/Roboto.ttf");
+}
  
- * {
-   box-sizing: border-box;
- }
+* {
+  box-sizing: border-box;
+}
  
- body {
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
-   min-height: 100vh;
-   max-width: 1280px;
-   margin: 0 auto;
-   padding: 0;  
-   font-family: 'Roboto', Arial, sans-serif;
-   font-size: 18px;
-   line-height: 30px;
-   font-weight: 400;  
- } 
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;  
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;  
+} 
 
 /*--------------------- NAV -----------------------*/
 
 .nav-list {
-   display: flex;
-   justify-content: space-around;
-   margin: 0;
-   padding: 0;
-   background-color: #d6d6d6;   
- }
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  background-color: #d6d6d6;   
+}
  
- .nav-item {
-   list-style-type: none; 
- }
+.nav-item {
+  list-style-type: none; 
+}
  
- .nav-item a {
-   display: block;
-   padding: 10px;
-   font-weight: 500;
-   text-decoration: none;
-   color: #000;    
-   transition: .3s;  
- }
+.nav-item a {
+  display: block;
+  padding: 10px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #000;    
+  transition: .3s;  
+}
  
- .nav-item a:hover {
-   color: #54bfe2;  
- }
+.nav-item a:hover {
+  color: #54bfe2;  
+}
 
- /*--------------------- MAIN ----------------------*/
+/*--------------------- MAIN ----------------------*/
 
 .main {
-   display: flex;
-   background-color: #fafafa;  
- }
+  display: flex;
+  background-color: #fafafa;  
+}
  
- .figure-mobile {      /* photo for mobile */
-   display: none;
- }
+.figure-mobile {      /* photo for mobile */
+  display: none;
+}
  
- /*------------------- LEFT SIDE -------------------*/
+/*------------------- LEFT SIDE -------------------*/
  
- .left-side {
-   background-color: #f0f0f0;
- }
+.left-side {
+  background-color: #f0f0f0;
+}
  
- .figure {
-   margin: 0;
- }
+.figure {
+  margin: 0;
+}
  
- .section-title {
-   margin: 0;
-   padding: 5px 30px;
-   background: linear-gradient(to right, #54bfe2, #d6d6d6);  
- }
+.section-title {
+  margin: 0;
+  padding: 5px 30px;
+  background: linear-gradient(to right, #54bfe2, #d6d6d6);  
+}
  
- .contact-list {
-   padding: 20px 30px;
-   list-style-type: none;  
- }  
+.contact-list {
+  padding: 20px 30px;
+  list-style-type: none;  
+}  
    
- .contact-item {
-   padding: 5px;
-   transition: 0.3s;  
- }
+.contact-item {
+  padding: 5px;
+  transition: 0.3s;  
+}
  
- .contact-item img {
-   margin-bottom: -3px;
-   padding-right: 5px;
- }
+.contact-item img {
+  margin-bottom: -3px;
+  padding-right: 5px;
+}
  
- .contact-item a {
-   text-decoration: none;
-   color: #000;
-   transition: 0.2s; 
- }
+.contact-item a {
+  text-decoration: none;
+  color: #000;
+  transition: 0.2s; 
+}
  
- .contact-item a:hover {
-   text-decoration: underline;
-   color: #54bfe2;
- }
+.contact-item a:hover {
+  text-decoration: underline;
+  color: #54bfe2;
+}
  
- .skills-list {
-   padding: 25px 57px;
- }
+.skills-list {
+  padding: 25px 57px;
+}
    
- .english-item {
-   padding: 25px 40px;  
- }
+.english-item {
+  padding: 25px 40px;  
+}
 
- /*------------------- RIGHT SIDE --------------------*/
+/*------------------- RIGHT SIDE --------------------*/
 
 .right-side {
-   flex-grow: 1;  
- }
+  flex-grow: 1;  
+}
  
- .page-title{
-   text-align: center;
- }
+.page-title{
+  text-align: center;
+}
  
- .page-title p {
-   padding-left: 150px;
-   font-style: italic;
-   font-size: 22px;  
- }
+.page-title p {
+  padding-left: 150px;
+  font-style: italic;
+  font-size: 22px;  
+}
  
- .main-title {
-   margin: 0;
-   padding-top: 50px;
-   font-size: 60px;
-   line-height: 60px;
- }
+.main-title {
+  margin: 0;
+  padding-top: 50px;
+  font-size: 60px;
+  line-height: 60px;
+}
  
- .about-me-item {
-   padding: 25px 40px;
- }
+.about-me-item {
+  padding: 25px 40px;
+}
  
- .education-list {
-   padding: 25px 57px;
- }
+.education-list {
+  padding: 25px 57px;
+}
+
+.project-item {
+  display: block;
+  padding: 25px 40px;
+  text-decoration: none;
+  color: #000;  
+  transition: 0.2s; 
+}
  
+.project-item:hover {
+  text-decoration: underline;
+  color: #54bfe2;
+}
+ 
+/*----------------------- FOOTER ----------------------*/
+ 
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #a3a3a3;
+}
+ 
+.footer-rsschool {
+  padding: 10px 20px 0 0;
+}
+ 
+.footer-github {
+  padding: 5px 0 0 10px;
+}
+ 
+.footer-year {
+  font-weight: 600;   
+}
