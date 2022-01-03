@@ -172,3 +172,32 @@ body {
 .footer-year {
   font-weight: 600;   
 }
+
+/*----------------------- MOBILE ----------------------*/
+
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+  .nav-list {
+    font-size: 14px;
+  }
+ 
+  .figure-mobile {
+    display: flex;
+    justify-content: center;
+    order: 1;
+    margin: 0;    
+  }
+ 
+  .figure {
+    position: absolute;
+    z-index: -1;;
+  }
+ 
+  .left-side {
+    background-color: #fafafa;
+  }
+}
