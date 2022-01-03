@@ -1,3 +1,26 @@
-body {
-   margin: auto;
-}
+/*--------------------- NAV -----------------------*/
+
+.nav-list {
+   display: flex;
+   justify-content: space-around;
+   margin: 0;
+   padding: 0;
+   background-color: #d6d6d6;   
+ }
+ 
+ .nav-item {
+   list-style-type: none; 
+ }
+ 
+ .nav-item a {
+   display: block;
+   padding: 10px;
+   font-weight: 500;
+   text-decoration: none;
+   color: #000;    
+   transition: .3s;  
+ }
+ 
+ .nav-item a:hover {
+   color: #54bfe2;  
+ }
