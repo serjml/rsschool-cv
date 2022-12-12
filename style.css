@@ -107,11 +107,11 @@ body {
 }
  
 .skills-list {
-  padding: 25px 57px;
+  padding: 10px 57px;
 }
    
 .english-item {
-  padding: 25px 40px;  
+  padding: 10px 40px;  
 }
 
 /*------------------- RIGHT SIDE --------------------*/
@@ -138,19 +138,27 @@ body {
 }
  
 .about-me-item {
-  padding: 25px 40px;
+  padding: 20px 40px;
 }
  
 .education-list {
-  padding: 25px 57px;
+  padding: 20px 57px;
+}
+
+.projects {
+  padding-bottom: 20px;
+}
+
+.project-title {
+  margin-bottom: 20px;
 }
 
 .project-item {
   display: block;
-  padding: 5px 40px;
+  padding: 0 40px;
   text-decoration: none;
   color: #000;  
-  transition: 0.2s; 
+  transition: 0.2s;
 }
  
 .project-item:hover {
@@ -161,21 +169,11 @@ body {
 /*----------------------- FOOTER ----------------------*/
  
 .footer {
+  padding: 0 40px;
   display: flex;
   justify-content: space-between;
-  background-color: #a3a3a3;
-}
- 
-.footer-rsschool {
-  padding: 10px 20px 0 0;
-}
- 
-.footer-github {
-  padding: 5px 0 0 10px;
-}
- 
-.footer-year {
-  font-weight: 600;   
+  background-color: #d6d6d6;
+  align-items: center;
 }
 
 /*----------------------- MOBILE ----------------------*/
